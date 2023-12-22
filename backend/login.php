@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['pswd'];
 
-    $sql = "SELECT id, username, email, password FROM users WHERE username='$username'";
+    $sql = "SELECT id, username, password FROM users WHERE username='$username'";
     $result = $conn->query($sql);
 
     if ($result->num_rows == 1) {
@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Username tidak ditemukan";
     }
+} else {
+    echo "Metode yang digunakan bukan POST";
 }
-
-$conn->close();
 ?>
