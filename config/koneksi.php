@@ -1,8 +1,8 @@
 <?php
 $hostname = "localhost"; // Ganti dengan host database Anda
-$username = "username_db"; // Ganti dengan username database Anda
-$password = "password_db"; // Ganti dengan password database Anda
-$database = "nama_database"; // Ganti dengan nama database Anda
+$username = "root"; // Ganti dengan username database Anda
+$password = ""; // Ganti dengan password database Anda
+$database = "dbmhf231223"; // Ganti dengan nama database Anda
 
 $conn = new mysqli($hostname, $username, $password, $database);
 
