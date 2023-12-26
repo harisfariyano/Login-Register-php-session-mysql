@@ -3,7 +3,7 @@
 ## instalasi minimum
 - min Php version 7.4 
 
-## intalasi
+## instalasi
 1. git clone (https://https://github.com/harisfariyano/Login-Register-php-session-mysql.git)
 2. db configurasi config/koneksi.php
 
