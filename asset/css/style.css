@@ -6,7 +6,8 @@ body{
 	align-items: center;
 	min-height: 100vh;
 	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #BBAB8C, #DED0B6, #BBAB8C);
+	background: rgb(220,48,251);
+	background: linear-gradient(90deg, rgba(220,48,251,1) 0%, rgba(88,88,240,1) 49%, rgba(70,188,212,1) 100%);
 }
 .main{
 	width: 350px;
@@ -15,7 +16,7 @@ body{
 	overflow: hidden;
 	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
 	border-radius: 10px;
-	box-shadow: 5px 20px 40px #00000060;
+	box-shadow: 10px 15px 40px #00000060;
 }
 #chk{
 	display: none;
@@ -26,7 +27,7 @@ body{
 	height: 100%;
 }
 label{
-	color: #fff;
+	color: #eee;
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -54,7 +55,7 @@ button{
 	justify-content: center;
 	display: block;
 	color: #fff;
-	background: #B0926A;
+	background: rgb(222, 77, 248);
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 20px;
@@ -65,7 +66,7 @@ button{
 	cursor: pointer;
 }
 button:hover{
-	background: #b8a079;
+	background: rgba(220,48,251,1);
 }
 .login{
 	height: 500px;
@@ -75,8 +76,9 @@ button:hover{
 	transition: .8s ease-in-out;
 }
 .login label{
-	color: #B0926A;
+	color: rgba(220,48,251,1);
 	transform: scale(.6);
+	text-shadow: none;
 }
 
 #chk:checked ~ .login{
