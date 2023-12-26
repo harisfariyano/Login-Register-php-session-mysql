@@ -7,5 +7,5 @@
 1. git clone (https://https://github.com/harisfariyano/Login-Register-php-session-mysql.git)
 2. db configurasi config/koneksi.php
 
-![Tampilan pc/leptop](asset/image/image.png)
+![Tampilan pc/leptop](asset/image/loginsederhana.mp4)
 
